@@ -105,4 +105,3 @@ class MongoCommandListener(monitoring.CommandListener):
             span.set_status(status)
             span.__exit__(None, None, None)
             del self._spans[event.request_id]
-
