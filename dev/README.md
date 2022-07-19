@@ -25,7 +25,7 @@ twine check dist/*
 
 ### Upload
 ```shell
-
+# upload to testpypi
 twine upload -r testpypi dist/*
 
 ```

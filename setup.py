@@ -19,7 +19,7 @@ setup(
     author_email="joelvictor1746@gmail.com",
     license="MIT",
     classifiers=[
-        'License :: OSI Approved :: MIT License',
+        "License :: OSI Approved :: MIT License",
     ],
     packages=["sentry_mongo"],
     include_package_data=True,
