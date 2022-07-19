@@ -26,10 +26,9 @@ twine check dist/*
 ### Upload
 ```shell
 # upload to testpypi
-twine upload -r testpypi dist/*
+twine upload --skip-existing -r testpypi dist/*
 
 # upload to pypi
 twine upload dist/*
-
 
 ```
