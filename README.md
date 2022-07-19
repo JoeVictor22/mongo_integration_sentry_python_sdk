@@ -13,7 +13,7 @@ pip install mongodb-sentry-integration
 
 ```python
 import sentry_sdk
-from sentry_mongo import MongoIntegration
+from sentry_mongo.integrations import MongoIntegration
 
 sentry_sdk.init(
     dsn="https://examplePublicKey@o0.ingest.sentry.io/0",
