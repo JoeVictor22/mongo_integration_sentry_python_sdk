@@ -23,5 +23,5 @@ setup(
     ],
     packages=["sentry_mongo"],
     include_package_data=True,
-    install_requires=["sentry_sdk~=1.5", "pymongo~=3.12"],
+    install_requires=["sentry_sdk", "pymongo==3.*"],
 )

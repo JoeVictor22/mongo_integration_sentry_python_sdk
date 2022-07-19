@@ -28,4 +28,8 @@ twine check dist/*
 # upload to testpypi
 twine upload -r testpypi dist/*
 
+# upload to pypi
+twine upload dist/*
+
+
 ```
